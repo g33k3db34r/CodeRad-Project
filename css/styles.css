@@ -38,6 +38,7 @@
 }
 .bg-header {   
    background-image: url("../assets/images/bg-header-1.jpg");
+   padding: var(--size-150);
 }
 .video-demo {   
    background-image: url("../assets/images/bg-demo.jpg");
@@ -81,8 +82,9 @@
 .why-me-wrapper div {
    flex: 1;
 }
-.block-text {
-   padding-right: var(--size-50);   
+.why-me-wrapper .block-text {
+   padding-right: var(--size-100);   
+   max-width: 35rem;
 }
 .block-text span {
 color:var(--font-color-dark);
@@ -149,6 +151,7 @@ padding-right: 0;
 }
 .video-demo .block-text h2,
 .video-demo .block-text p {
+   margin: var(--size-50) 0;
    color: var(--white);
 }
 
@@ -188,7 +191,7 @@ padding-right: 0;
 .price-card {
    background-color: var(--white);
    border-radius: 8px;
-   padding: var(--size-16);
+   padding: var(--size-40) var(--size-16);
 
 }
 .price-card .checked {
@@ -229,6 +232,9 @@ padding-right: 0;
 }
 .plan-btn-wrapper {
    text-align: center;
+}
+.plan-btn-wrapper a {
+   width: 100%;
 }
 .testimonials {
    margin: var(--size-100) 0;
@@ -312,6 +318,7 @@ footer .footer-col {
    color: var(--white);
    font-weight: 500;
    margin-bottom: var(--size-16);
+   font-size: var(--size-16);
 }
 .contact-info li {
    color: var(--white);
@@ -331,6 +338,9 @@ footer .footer-col {
 .services-wrapper p {
    color: #858497;
 }
+.services-wrapper h5 {
+   margin-bottom: initial;
+}
 .recent-posts {
    display: flex;
    margin-bottom: var(--size-16);
@@ -345,6 +355,7 @@ footer .footer-col {
 .post-inner h6 a {
    color: var(--white);
    font-weight: 600;
+   font-size: 0.75rem;
 }
 .post-inner span {
    color: var(--font-color-light);
